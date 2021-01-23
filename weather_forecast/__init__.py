@@ -105,4 +105,4 @@ def forecast(place, time=None, date=None, forecast=None):
         return "Exception while fetching data"
         
 
-    return pprint(forecast_output)
+    return forecast_output
